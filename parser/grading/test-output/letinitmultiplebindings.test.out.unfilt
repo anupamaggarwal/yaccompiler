@@ -1,0 +1,3 @@
+"./letinitmultiplebindings.test", line 3: parse error at or near OBJECTID = y
+"./letinitmultiplebindings.test", line 4: parse error at or near EOF
+Compilation halted due to lex and parse errors

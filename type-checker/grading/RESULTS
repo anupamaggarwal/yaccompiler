@@ -1,0 +1,7 @@
+	-1 (cells)	 Complex program
+	-1 (hairyscary)	 Messy legal Cool program
+	-1 (list)	 List program
+	-1 (lubtest)	 LUB test using if statements
+	-1 (overridingmethod4)	 Illegal method override - different param types
+	-1 (signaturechange)	 Method override with different number of params
+	-1 (trickyatdispatch2)	 Tricky (illegal) static dispatch

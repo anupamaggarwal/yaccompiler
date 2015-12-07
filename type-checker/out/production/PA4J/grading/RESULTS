@@ -1,0 +1,12 @@
+	-1 (anattributenamedself)	 An attribute named self
+	-1 (assignment)	 Valid assignments
+	-1 (assignnoconform)	 Assignment with non conforming expression
+	-1 (attrbadinit)	 Init attribute with undefined expression
+	-1 (badargs1)	 Non-conforming parameter type in dispatch
+	-1 (badarith)	 Addition with non-int argument
+	-1 (baddispatch)	 Method only in child class, attempted dispatch from parent class
+	-1 (badequalitytest)	 Int compared to String
+	-1 (badequalitytest2)	 Int compared to Bool
+	-1 (badmethodcallsitself)	 Method called with itself as parameter (wrong type)
+	-1 (badredefineint)	 Redefinition of Int
+	-1 (badstaticdispatch)	 Bad static dispatch

@@ -1,0 +1,23 @@
+Grading .....
+make: Entering directory '/usr/class/cs143/cool/assignments/PA4J'
+make: Nothing to be done for 'source'.
+make: Leaving directory '/usr/class/cs143/cool/assignments/PA4J'
+make: Entering directory '/usr/class/cs143/cool/assignments/PA4J'
+make: 'semant' is up to date.
+make: Leaving directory '/usr/class/cs143/cool/assignments/PA4J'
+=====================================================================
+submission: ..
+
+	-1 (cells)	 Complex program
+	-1 (hairyscary)	 Messy legal Cool program
+	-1 (list)	 List program
+	-1 (lubtest)	 LUB test using if statements
+	-1 (overridingmethod4)	 Illegal method override - different param types
+	-1 (signaturechange)	 Method override with different number of params
+	-1 (trickyatdispatch2)	 Tricky (illegal) static dispatch
+=====================================================================
+You got a score of 67 out of 74.
+
+Submit code: 
+PA3-67:73fd546ffa7dfc67830c842a6c3cce1c
+

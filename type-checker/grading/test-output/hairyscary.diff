@@ -1,0 +1,16 @@
+0a1,3
+> Mis matching types of initialization, expected:Razz
+> Mis matching types of initialization, expected:Bar
+> Mis matching types of initialization, expected:Foo
+43c46
+<       : Razz
+---
+>       : Object
+200c203
+<       : Bar
+---
+>       : Object
+325c328
+<       : Foo
+---
+>       : Object

@@ -1,0 +1,39 @@
+0a1,4
+> Starting semantic analysis phase
+> class Class_
+> Main
+> Foo
+42,43c46,47
+<           : Int
+<         : Int
+---
+>           : _no_type
+>         : _no_type
+50,51c54,55
+<           : Int
+<         : Int
+---
+>           : _no_type
+>         : _no_type
+58,59c62,63
+<           : String
+<         : String
+---
+>           : _no_type
+>         : _no_type
+66,68c70,72
+<           : Foo
+<         : Foo
+<       : Foo
+---
+>           : _no_type
+>         : _no_type
+>       : _no_type
+76c80
+<       : String
+---
+>       : _no_type
+91c95
+<       : Int
+---
+>       : _no_type

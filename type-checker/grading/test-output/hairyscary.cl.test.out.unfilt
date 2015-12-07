@@ -1,0 +1,450 @@
+Mis matching types of initialization, expected:Razz
+Mis matching types of initialization, expected:Bar
+Mis matching types of initialization, expected:Foo
+#1
+_program
+  #1
+  _class
+    Foo
+    Bazz
+    "./hairyscary.cl.test"
+    (
+    #1
+    _attr
+      a
+      Razz
+      #1
+      _typcase
+        #1
+        _object
+          self
+        : SELF_TYPE
+        #1
+        _branch
+          n
+          Razz
+          #1
+          _new
+            Bar
+          : Bar
+        #1
+        _branch
+          n
+          Foo
+          #1
+          _new
+            Razz
+          : Razz
+        #1
+        _branch
+          n
+          Bar
+          #1
+          _object
+            n
+          : Bar
+      : Object
+    #1
+    _attr
+      b
+      Int
+      #1
+      _plus
+        #1
+        _plus
+          #1
+          _plus
+            #1
+            _dispatch
+              #1
+              _object
+                a
+              : Razz
+              doh
+              (
+              )
+            : Int
+            #1
+            _dispatch
+              #1
+              _object
+                g
+              : Foo
+              doh
+              (
+              )
+            : Int
+          : Int
+          #1
+          _dispatch
+            #1
+            _object
+              self
+            : SELF_TYPE
+            doh
+            (
+            )
+          : Int
+        : Int
+        #1
+        _dispatch
+          #1
+          _object
+            self
+          : SELF_TYPE
+          printh
+          (
+          )
+        : Int
+      : Int
+    #1
+    _method
+      doh
+      Int
+      #1
+      _let
+        i
+        Int
+        #1
+        _object
+          h
+        : Int
+        #1
+        _block
+          #1
+          _assign
+            h
+            #1
+            _plus
+              #1
+              _object
+                h
+              : Int
+              #1
+              _int
+                2
+              : Int
+            : Int
+          : Int
+          #1
+          _object
+            i
+          : Int
+        : Int
+      : Int
+    )
+  #1
+  _class
+    Bar
+    Razz
+    "./hairyscary.cl.test"
+    (
+    #1
+    _attr
+      c
+      Int
+      #1
+      _dispatch
+        #1
+        _object
+          self
+        : SELF_TYPE
+        doh
+        (
+        )
+      : Int
+    #1
+    _attr
+      d
+      Object
+      #1
+      _dispatch
+        #1
+        _object
+          self
+        : SELF_TYPE
+        printh
+        (
+        )
+      : Int
+    )
+  #1
+  _class
+    Razz
+    Foo
+    "./hairyscary.cl.test"
+    (
+    #1
+    _attr
+      e
+      Bar
+      #1
+      _typcase
+        #1
+        _object
+          self
+        : SELF_TYPE
+        #1
+        _branch
+          n
+          Razz
+          #1
+          _new
+            Bar
+          : Bar
+        #1
+        _branch
+          n
+          Bar
+          #1
+          _object
+            n
+          : Bar
+      : Object
+    #1
+    _attr
+      f
+      Int
+      #1
+      _plus
+        #1
+        _plus
+          #1
+          _plus
+            #1
+            _plus
+              #1
+              _static_dispatch
+                #1
+                _object
+                  a
+                : Razz
+                Bazz
+                doh
+                (
+                )
+              : Int
+              #1
+              _dispatch
+                #1
+                _object
+                  g
+                : Foo
+                doh
+                (
+                )
+              : Int
+            : Int
+            #1
+            _dispatch
+              #1
+              _object
+                e
+              : Bar
+              doh
+              (
+              )
+            : Int
+          : Int
+          #1
+          _dispatch
+            #1
+            _object
+              self
+            : SELF_TYPE
+            doh
+            (
+            )
+          : Int
+        : Int
+        #1
+        _dispatch
+          #1
+          _object
+            self
+          : SELF_TYPE
+          printh
+          (
+          )
+        : Int
+      : Int
+    )
+  #1
+  _class
+    Bazz
+    IO
+    "./hairyscary.cl.test"
+    (
+    #1
+    _attr
+      h
+      Int
+      #1
+      _int
+        1
+      : Int
+    #1
+    _attr
+      g
+      Foo
+      #1
+      _typcase
+        #1
+        _object
+          self
+        : SELF_TYPE
+        #1
+        _branch
+          n
+          Bazz
+          #1
+          _new
+            Foo
+          : Foo
+        #1
+        _branch
+          n
+          Razz
+          #1
+          _new
+            Bar
+          : Bar
+        #1
+        _branch
+          n
+          Foo
+          #1
+          _new
+            Razz
+          : Razz
+        #1
+        _branch
+          n
+          Bar
+          #1
+          _object
+            n
+          : Bar
+      : Object
+    #1
+    _attr
+      i
+      Object
+      #1
+      _dispatch
+        #1
+        _object
+          self
+        : SELF_TYPE
+        printh
+        (
+        )
+      : Int
+    #1
+    _method
+      printh
+      Int
+      #1
+      _block
+        #1
+        _dispatch
+          #1
+          _object
+            self
+          : SELF_TYPE
+          out_int
+          (
+          #1
+          _object
+            h
+          : Int
+          )
+        : SELF_TYPE
+        #1
+        _int
+          0
+        : Int
+      : Int
+    #1
+    _method
+      doh
+      Int
+      #1
+      _let
+        i
+        Int
+        #1
+        _object
+          h
+        : Int
+        #1
+        _block
+          #1
+          _assign
+            h
+            #1
+            _plus
+              #1
+              _object
+                h
+              : Int
+              #1
+              _int
+                1
+              : Int
+            : Int
+          : Int
+          #1
+          _object
+            i
+          : Int
+        : Int
+      : Int
+    )
+  #1
+  _class
+    Main
+    Object
+    "./hairyscary.cl.test"
+    (
+    #1
+    _attr
+      a
+      Bazz
+      #1
+      _new
+        Bazz
+      : Bazz
+    #1
+    _attr
+      b
+      Foo
+      #1
+      _new
+        Foo
+      : Foo
+    #1
+    _attr
+      c
+      Razz
+      #1
+      _new
+        Razz
+      : Razz
+    #1
+    _attr
+      d
+      Bar
+      #1
+      _new
+        Bar
+      : Bar
+    #1
+    _method
+      main
+      String
+      #1
+      _string
+        "do nothing"
+      : String
+    )

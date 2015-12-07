@@ -1,0 +1,75 @@
+Starting semantic analysis phase
+class Class_
+Main
+Animal
+Cow
+Blerg
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "./baddispatch.test"
+    (
+    #1
+    _method
+      main
+      Object
+      #1
+      _int
+        0
+      : _no_type
+    )
+  #1
+  _class
+    Animal
+    Object
+    "./baddispatch.test"
+    (
+    )
+  #1
+  _class
+    Cow
+    Animal
+    "./baddispatch.test"
+    (
+    #1
+    _method
+      moo
+      String
+      #1
+      _string
+        "moo"
+      : _no_type
+    )
+  #1
+  _class
+    Blerg
+    Object
+    "./baddispatch.test"
+    (
+    #1
+    _method
+      foo
+      Object
+      #1
+      _let
+        cow
+        Animal
+        #1
+        _new
+          Cow
+        : _no_type
+        #1
+        _dispatch
+          #1
+          _object
+            cow
+          : _no_type
+          moo
+          (
+          )
+        : _no_type
+      : _no_type
+    )

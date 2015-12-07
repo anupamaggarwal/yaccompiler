@@ -1,3 +1,7 @@
-To build type
+Implements type checking for cool compiler
+Checks for semantic analyzer functionality
 
-make semant
+
+To build type
+  
+> make semant

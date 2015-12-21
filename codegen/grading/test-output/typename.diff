@@ -1,0 +1,11 @@
+6,11c6,8
+< Base
+< Derived
+< Main
+< Derived
+< Derived
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x10010314
+>   Bad address in text read: 0x10010314
+>   Exception 6  [Bad address in text read]  Execution aborted

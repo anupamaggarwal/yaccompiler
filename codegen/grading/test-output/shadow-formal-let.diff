@@ -1,0 +1,7 @@
+6,7c6,8
+< good
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x7fffe1f4
+>   Bad address in text read: 0x7fffe1f4
+>   Exception 6  [Bad address in text read]  Execution aborted

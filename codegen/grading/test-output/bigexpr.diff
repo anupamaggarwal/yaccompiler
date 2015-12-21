@@ -1,0 +1,6 @@
+6c6,8
+< 36COOL program successfully executed
+---
+> Exception occurred at PC=0x1001047c
+>   Bad address in text read: 0x1001047c
+>   Exception 6  [Bad address in text read]  Execution aborted

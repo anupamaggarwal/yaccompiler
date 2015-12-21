@@ -1,0 +1,9 @@
+6,9c6,8
+< x: -1
+< b: true
+< y: 2
+< z: -5COOL program successfully executed
+---
+> Exception occurred at PC=0x100102f4
+>   Bad address in text read: 0x100102f4
+>   Exception 6  [Bad address in text read]  Execution aborted

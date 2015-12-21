@@ -1,0 +1,9 @@
+6,9c6,8
+< 9
+< this is a string
+< is
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x100102dc
+>   Bad address in text read: 0x100102dc
+>   Exception 6  [Bad address in text read]  Execution aborted

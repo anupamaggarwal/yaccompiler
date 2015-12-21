@@ -1,0 +1,11 @@
+6,11c6,8
+< t: Bool
+< b1: Bool
+< b2: Bool
+< b1: Bool
+< b2: Bool
+< COOL program successfully executed
+---
+> Exception occurred at PC=0x100103cc
+>   Bad address in text read: 0x100103cc
+>   Exception 6  [Bad address in text read]  Execution aborted

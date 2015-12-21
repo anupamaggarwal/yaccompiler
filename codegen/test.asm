@@ -1,0 +1,5 @@
+main:
+   li $v0,5
+   syscall
+move $t0,$v0
+

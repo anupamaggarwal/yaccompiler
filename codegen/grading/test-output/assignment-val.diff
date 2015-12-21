@@ -1,0 +1,8 @@
+6,8c6,8
+< x: 3
+< y: 4
+< 4COOL program successfully executed
+---
+> Exception occurred at PC=0x004004a8
+>   Bad address in data/stack read: 0x0000000c
+>   Exception 7  [Bad address in data/stack read]  Execution aborted
